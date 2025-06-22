@@ -1,7 +1,5 @@
-# NavigationEV3
+# NavigationEV3 ReWrite
 NavigationEV3を使用すると、簡単にEV3を制御することが可能です。  
-
-(Sorry. This software does not support English.)  
 
 ### どのように使用するか  
 洗練されたGUIで、直感的にロボットを配置します。たったそれだけで距離と角度が自動算出されます。これをEV3に送信することで、簡単にロボットを操作することが可能です。  
@@ -30,24 +28,24 @@ RAM: 2GB
 HDD空き容量: 1GB  
 
 ### 推奨スペック  
-Windows 11 Ver 22H2  
+Windows 11 Ver 23H2  
 1920x1080 ドットの解像度 (16:9推奨)  
-(ソースコードからの実行時) Python 3.10.9  
+(ソースコードからの実行時) Python 3.13.2  
 CPU: PAE、NX、およびSSE2をサポートする2GHz以上  
 RAM: 8GB  
 HDD・SSD空き容量: 10GB  
 
 ### 動作確認済みスペック (非推奨)    
-Windows 11 Ver 22H2 Build 22621.1194 (Insider Preview)  
+Windows 11 Ver 23H2 Build 22631.5472  
 1920x1080 ドットの解像度 (16:9推奨)  
-(ソースコードからの実行時) Python 3.10.9  
-CPU: AMD Ryzen 5 2600X (3.6GHz)  
+(ソースコードからの実行時) Python 3.13.2   
+CPU: AMD Ryzen 5 2600X (3.60GHz)  
 RAM: 48GB  
 SSD空き容量: 700GB  
 
 ## 必須ライブラリ
 Pillow==9.3.0  
-wxPython==4.2.0  
+wxPython==4.2.3  
 
 ## ライセンス
 このソフトウェアを無断で改変・再配布をすることは禁止されています。  
@@ -60,9 +58,9 @@ To prevent problems, the use of LEGO Mindstorms for the purpose of competing in 
 ・ロボット回転、削除（全削除）、位置調整可能  
 ・ロボットタイヤ径変更可能  
 ・距離と角度のテキストファイル出力  
-・.nrp (NavigationEV3 ReWrite Program) 形式でロボットの位置保存  
-・.nrpファイルの読み込みとコート状態復元  
-・.nrc (NavigationEV3 ReWrite Courtpack) 形式でコート情報読み込み可能  
+・.nvp (NavigationEV3 ReWrite Program) 形式でロボットの位置保存  
+・.nvpファイルの読み込みとコート状態復元  
+・.nvfd (NavigationEV3 ReWrite Field Data) 形式でコート情報読み込み可能  
 ・Configを使用し設定変更可能  
 ・コントロールパネルで視覚的な操作  
 
