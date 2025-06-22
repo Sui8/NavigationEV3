@@ -17,7 +17,7 @@ import csv #.nrpファイル（csv）用
 #変数定義群
 TitleName = "NavigationEV3 ReWrite" #タイトル名
 Version = "3.0.0α-Dev13a" #バージョン
-Developer = "© 2020-2023 Sui (@Sui8)"
+Developer = "© 2020-2025 Sui (@Sui8)"
 
 DisplayMax = [1920, 1080]
 DisplayMin = [1280, 720]
